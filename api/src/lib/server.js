@@ -1,9 +1,9 @@
 import express from "express";
-
+import config  from "./config";
 export const server = () => {
   const httpServer = express();
 
-  const port = process.env.PORT || 3000;
+  const port = config.port;
   console.log(`Port from .env file: ${process.env.PORT}`);
 
   try {
