@@ -8,6 +8,8 @@ export const server = () => {
   console.log(`Port from .env file: ${process.env.PORT}`);
 
   try {
+    console.log("Testing Docker Image");
+    
     httpServer.listen(port, () => {
       console.log(`Server is listening on port: ${port}`);
     });

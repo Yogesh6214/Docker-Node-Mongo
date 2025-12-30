@@ -16,3 +16,7 @@ docker ps : cmd to check running images
 docker stop <container id or name> : cmd to stop the container
 
 docker ps -a : cmd to cehck all images ran
+
+docker container prune : cmd to delete all stoped containers 
+
+docker image prune : cmd to delete all stoped images
