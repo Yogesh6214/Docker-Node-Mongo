@@ -1,5 +1,5 @@
 import express from "express";
-import config from './config.js';
+import config from "./config.js";
 
 export const server = () => {
   const httpServer = express();
@@ -8,8 +8,8 @@ export const server = () => {
   console.log(`Port from .env file: ${process.env.PORT}`);
 
   try {
-    console.log("Testing Docker Image");
-    
+    console.log("Testing Docker Image in local");
+
     httpServer.listen(port, () => {
       console.log(`Server is listening on port: ${port}`);
     });
