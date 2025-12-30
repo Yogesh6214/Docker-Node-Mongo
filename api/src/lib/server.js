@@ -1,5 +1,6 @@
 import express from "express";
-import config  from "./config";
+import config from './config.js';
+
 export const server = () => {
   const httpServer = express();
 

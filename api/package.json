@@ -1,6 +1,7 @@
 {
   "name": "dockernodemongo",
   "version": "1.0.0",
+  "type": "module",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon --env-file=.env.development src/index.js"
