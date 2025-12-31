@@ -24,3 +24,5 @@ docker image prune : cmd to delete all stoped images
 docker network ls : cmd to check docker networks running locally 
 
 docker network inspect bridge : cmd to get info about bridge network 
+
+docker compose up : cmd for docker compose to start the docker project
