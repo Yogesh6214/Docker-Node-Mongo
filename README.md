@@ -20,3 +20,7 @@ docker ps -a : cmd to cehck all images ran
 docker container prune : cmd to delete all stoped containers 
 
 docker image prune : cmd to delete all stoped images
+
+docker network ls : cmd to check docker networks running locally 
+
+docker network inspect bridge : cmd to get info about bridge network 
