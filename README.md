@@ -24,7 +24,7 @@ docker network ls : cmd to check docker networks running locally
 
 docker network inspect bridge : cmd to get info about bridge network
 
----
+------------------------------------------------------------------------------------------------
 
 docker-compose build : Build or rebuild services specified in the docekr.compose.yam file
 
@@ -43,3 +43,16 @@ docker-compose ps : list all running container related to services
 docker-compose logs : view combined logs from all services
 
 docker-compose logs [service_name] : view logs for specific service
+
+-------------------------------------------------------------------------------------------------
+
+You can visit the official Docker docs here:
+
+https://docs.docker.com/reference/cli/docker/
+
+
+As well as the official Docker Cheat Sheet for the CLI:
+
+https://docs.docker.com/get-started/docker_cheatsheet.pdf
+
+
