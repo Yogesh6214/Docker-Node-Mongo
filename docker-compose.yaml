@@ -1,13 +1,11 @@
-version: "3.8"
 services:
-  mongodb:
+  mongo:
     container_name: my-app-db
     image: mongo:latest
     restart: unless-stopped
+    env_file: .env.development
     ports:
       - "27017:27017"
-    # volumes:  
-    #   - mongo-data:/data/db
   api:
     container_name: api
     build: ./api
@@ -16,4 +14,3 @@ services:
       - "3000:3000"
     volumes:
       - ./api:/user/src/app
-
