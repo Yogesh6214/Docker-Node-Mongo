@@ -15,4 +15,4 @@ services:
     ports:
       - "3000:3000"
     volumes:
-      - ./api:/user/src/app
+      - ./api:/usr/src/app

@@ -4,7 +4,8 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm ci --only=production
+# Install all dependencies (not just production) for nodemon hot reload
+RUN npm ci
 
 COPY . .
 
